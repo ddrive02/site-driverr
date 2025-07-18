@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Трезвый водитель Алматы</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      padding: 90px 20px 70px;
+      animation: fadeIn 1.5s ease-in;
+    }
+    header h1 {
+      font-size: 2.7em;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2em;
+      font-weight: 300;
+      margin-bottom: 35px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      animation: popIn 1s ease;
+    }
+    .btn:hover {
+      background-color: #1ebe57;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 25px;
+      color: #2c3e50;
+    }
+    .services p {
+      font-size: 1.15em;
+      max-width: 600px;
+      margin: 0 auto 35px;
+    }
+    .big-order {
+      font-size: 2.3rem;
+      font-weight: 700;
+      margin: 40px 0 20px;
+      color: #25D366;
+      letter-spacing: 1px;
+      animation: popIn 1s ease;
+    }
+
+    .contact {
+      background-color: #f4f4f4;
+      padding: 60px 20px;
+    }
+    .contact p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .big-order {
+        font-size: 1.6rem;
+      }
+      .btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+      }
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes popIn {
+      from {opacity: 0; transform: scale(0.9);}
+      to {opacity: 1; transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Трезвый водитель в Алматы</h1>
+    <p>Быстро. Безопасно. С адекватными и опытными водителями.</p>
+    <a href="https://wa.me/77717788258" class="btn" target="_blank">Заказать через WhatsApp</a>
+  </header>
+
+  <section class="services">
+    <h2>Услуги трезвого водителя</h2>
+    <p>Доставим вас на вашем авто — после вечеринки, с работы, ночью или днём. Без лишних вопросов.</p>
+
+    <div class="big-order">ЗАКАЗАТЬ</div>
+    <a href="https://wa.me/77717788258" class="btn" target="_blank">+7 771 778 8258</a>
+  </section>
+
+  <section class="contact">
+    <p>Не звоните. Просто нажмите кнопку — и водитель будет в пути.</p>
+    <a href="https://wa.me/77717788258" class="btn" target="_blank">Написать в WhatsApp</a>
+  </section>
+
+</body>
+</html>
